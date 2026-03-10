@@ -1,4 +1,7 @@
 ---
+engine:
+  id: codex
+  model: gpt-4o
 on:
   issues:
     types: [opened]
