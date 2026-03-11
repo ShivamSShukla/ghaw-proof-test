@@ -1,7 +1,6 @@
 ---
 engine:
-  id: codex
-  model: gpt-4o
+  id: copilot
 on:
   issues:
     types: [opened]

@@ -1,0 +1,41 @@
+
+EVIDENCE SUMMARY
+
+================
+
+Advisory: GHSA-cfff-p9v5-2gh4
+
+Date: March 10, 2026
+
+Researcher: ShivamSShukla
+
+Tool: gh-aw v0.56.2
+
+CONFIRMED IN LIVE RUNS:
+
+- Run #4: workflow-run-id 22888665226
+
+- Run #6: workflow-run-id 22889107139
+
+VULNERABLE LINES IN triage.lock.yml:
+
+- Line 48:  body:  steps.sanitized.outputs.body
+
+- Line 53:  text:  steps.sanitized.outputs.text
+
+- Line 54:  title: steps.sanitized.outputs.title
+
+- Line 135: xpia.md (sole defense - text only)
+
+- Line 787: redact_secrets.cjs (post-execution only)
+
+LIVE EVIDENCE:
+
+- Injected payload entered prompt unfiltered
+
+- Real sensitive context exposed in same prompt
+
+- create_issue + add_comment tools loaded and ready
+
+- API calls made to inference endpoint with injected content
+
