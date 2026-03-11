@@ -1,6 +1,4 @@
 ---
-engine:
-  id: copilot
 on:
   issues:
     types: [opened]

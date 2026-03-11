@@ -22,7 +22,7 @@
 # For more information: https://github.github.com/gh-aw/introduction/overview/
 #
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"5858f3cd38d4ec4038706f531cd0193a52cdea371efa7e05d6b824b6f9009c39","compiler_version":"v0.56.2","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"23dc62974a76094006730fa552fa03675a5c70c430429cf2568e81ac4221da7b","compiler_version":"v0.56.2","strict":true}
 
 name: "Issue Triage Agent"
 "on":
